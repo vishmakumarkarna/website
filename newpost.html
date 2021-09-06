@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>New Post</title>
+  <link rel="icon" href="images/logo.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<style type="text/css">
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Bellota Text', cursive;
+  }
+
+}
+h6{
+  padding-top:30px;
+  padding-right: 150px;
+}
+
+
+.nav-link{
+  font-size: 20px;
+  margin: 3px;
+  color: #fff!important;
+  font-weight: 500;
+  
+}
+.navbar-nav{
+  text-align: right;
+  margin-right: 20px;
+
+
+}
+.menu-bar .navbar-toggler{
+  padding-right: 20px;
+  outline: none!important;
+  border:none!important;
+}
+.navbar .fa{
+  color:#fff!important;
+  font-size: 26px;
+}
+.nav-link:hover{
+  font-weight: 600;
+  border-bottom: 1px solid #fff;
+}
+.navbar-brand-img{
+  width: 150px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+@media only screen  and (max-width: 991px){
+  .nav-link:hover{
+    border-bottom: none!important;
+  }
+
+}
+
+
+
+ 
+   h1{    
+      padding-top: 10px;
+      font-size: 3em;
+      margin: 25px 0;
+      text-align: center;
+      font-weight: 1000;
+      color: rgb(255,0,82);
+      text-align: bold;
+      
+  }
+ h3{
+  padding-top: 200px;
+  font-size: 50px;
+  color: darkblue;
+
+ }
+ a.btn
+{
+position: relative;
+display: inline-block;
+color: darkblue;
+font-size: 25px;
+text-decoration:none;
+background-color:  #ebfafa;
+text-transform: uppercase;
+  margin: 30px;
+  width: 200px;
+  padding: 5px;
+  border-radius: 
+  transition:0.5s;
+  letter-spacing: 2px;
+}
+a.btn:hover{
+  background: #03e9f4;
+  color: #050801;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 200px #03e9f4;
+}
+
+
+    .img-responsive{
+      padding-top: 30px;
+     height: 700px;
+     margin-top: 100px;
+     padding-bottom:100px; 
+      background-size: none;
+    
+    }
+
+    .new{
+      font-size: 50px;
+      text-align: center;
+      background-color: #ebfafa;
+
+    }
+  
+   .footer-container h3{
+  color:white;
+  font-size: 50px;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer{
+    background: var(--dark);
+    color: #fff;
+    text-align: center;
+    background-color: black;
+    
+}
+
+
+
+.footer-bottom{
+  text-align:center;
+  color: red;
+  padding-top: 50px;
+}
+.footer-bottom p{
+  padding-right: 20%;
+  color: #999;
+}
+
+
+
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="menu-bar">
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+  <a class="navbar-brand" href="#"><img src="images/logo.jpg" width="50px" ></a><h2 style="padding-top: 5px ;color:white"><a class="nav-link" href="home.html"> JA IT SOLUTION</a></h2>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars"></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html"  >About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="service.html" >Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="team.html" >Our Team</a>
+      </li>
+	    <!------------
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Login
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item" href="login.html" >CEO</a>
+          <a class="dropdown-item" href="login.html" >CTO</a>
+          <a class="dropdown-item" href="login.html" >HR Operation & Lead</a>
+         
+          <a class="dropdown-item" href="login.html" >Planning</a>
+           <a class="dropdown-item" href="login.html" >Advisor</a>
+            <a class="dropdown-item" href="login.html" >Software Development Team</a>
+             <a class="dropdown-item" href="login.html" >Intern</a>
+          
+        </div>
+      </li>
+	  --------------->
+      
+
+
+       
+       <li class="nav-item">
+        <a class="nav-link" href="contactus.html" >Contact Us</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="career.html" >Career</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</div>
+  </div>
+
+<!----------------------------------------------------->
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm-6">
+      <h3 ><b>JA IT SOLUTION</b></h3>
+      <p><b>JAIT Solution counts on one of the fastest moving web development and completes suite of software development,Android and IOS app development,Computer training and SEO together with offering different IT-related training courses!</b></p>
+      <a class="btn btn-first" href="#">Enroll Now</a>
+      
+    </div>
+    <div class="col-sm-6">
+      <img src="images/new2.png" class="img-responsive">
+    </div>
+    </div>
+  </div>
+  
+<!------------------------------------------------------>
+
+<div class="new"><b style="color: darkblue">New Post</b>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--<footer class="footer">
+        <div class="footer-container">
+          <h3>JA IT SOLUTION</h3>
+            <div class="row">
+              <div class="col-md-3">
+                 
+                  <table>
+                   <img src="images/logo.jpg" width="250px" style="border-radius: 50%">
+                  </table>
+                </div>
+
+                <div class="col-md-3">
+                <h2 class="header">PRODUCT</h2><br>
+                <table>
+                    <ul type="none">
+                      <li><a href="#" class="text-white" style="text-decoration: none;">Website Development</a></li>
+                      <li><a href="#" class="text-white" style="text-decoration: none;">Graphics Designing</a></li>
+                      <li><a href="#" class="text-white" style="text-decoration: none;">App Development</a></li>
+                      <li><a href="#" class="text-white" style="text-decoration: none;">Technical Workshops</a></li>
+                      <li><a href="#" class="text-white" style="text-decoration: none;">Outsourcing</a></li>
+                      
+                       <li><a href="#" class="text-white" style="text-decoration: none;">E-Learning</a></li>
+                      
+                    </ul>
+                  </table>
+                
+       </div>
+                
+                <div class="col-md-3">
+                <h2 class="header">USEFUL LINKS</h2><br>
+                <table>
+                    <ul type="none">
+                      <li><a href="#" class="text-white" style="text-decoration: none;">Home</a></li>
+                     <div class="social-links">
+                  <a href="#"><span class="fab  fa-2x fa-facebook-f"></span></a>
+          <a href="#"><span class="fab fa-2x fa-twitter"></span></a>
+          <a href="#"><span class="fab fa-2x fa-instagram"></span></a>
+          <a href="#"><span class="fab fa-2x fa-youtube"></span></a>
+                
+                </div>
+                      
+                    </ul>
+                  </table>
+                 </div>
+ 
+  <div class="col-md-3">
+                 <h2 class="header">ADDRESS</h2><br>
+                 <table>
+                    <ul type="none">
+                      <li>Birgunj</li>
+                      <li>Nepal</li>
+                      <li>India</li>
+                      
+                      
+                    </ul>
+                  </table>
+                  
+                </div>
+</div>
+ </div>
+<div class="footer-bottom">
+  <p>All Right reserved by &copy;JAITSOLUTION 2021</p>
+</div>
+  </footer>-->
+
+
+  <footer class="footer">
+        <div class="footer-container">
+          <h3>JA IT SOLUTION</h3>
+            <div class="row">
+              <div class="col-md-3">
+                 
+                  <table>
+                   <img src="images/logo.jpg" width="250px" style="border-radius: 40px; border:2px solid grey;">
+                  </table>
+                </div>
+
+                <div class="col-md-3">
+                <h2 class="header">WORK DOMAIN</h2><br>
+                <table>
+                    <ul type="none">
+                      
+                      <li><a href="#" class="text-white" style="text-decoration: none; font-size: 22px;">Technical Workshops</a></li>
+                      <li><a href="#" class="text-white" style="text-decoration: none; font-size: 22px;">Graphics Designing</a></li>
+                      <li><a href="#" class="text-white" style="text-decoration: none;  font-size: 22px;" >  Web Development</a></li>
+                      <li><a href="#" class="text-white" style="text-decoration: none; font-size: 22px; ">App Development</a></li>
+                      
+                      <li><a href="#" class="text-white" style="text-decoration: none; font-size: 22px;">Outsourcing</a></li>
+                      
+                       <li><a href="#" class="text-white" style="text-decoration: none; font-size: 22px;">E-Learning</a></li>
+                      
+                    </ul>
+                  </table>
+                
+       </div>
+                
+                <div class="col-md-3">
+                <h2 class="header">SOCIAL LINKS</h2><br>
+                <table>
+                    <ul type="none">
+                      
+                     <div class="social-links">
+                   <a href="https://www.facebook.com/profile.php?id=100071462793609"><span style="margin-left: 28px;" class="fab  fa-2x fa-facebook-f"></span></a>
+          <a href="https://www.linkedin.com/in/ja-it-solution-5544091b2"><span style="margin-left: 10px; margin-top: 10px;" class="fab fa-2x fa-linkedin"></span></a>
+          <a href=" https://www.instagram.com/invites/contact/?i=1j9tww9j8x7q9&utm_content=mk3sx4f"><span style="margin-left: 10px;" class="fab fa-2x fa-instagram"></span></a>
+          <a href="#"><span style="margin-left: 10px;" class="fab fa-2x fa-youtube"></span></a>
+                
+                </div>
+                      
+                    </ul>
+                  </table>
+                 </div>
+ 
+  <div class="col-md-3">
+                 <h2 class="header">LOCATION</h2><br>
+                 <table>
+                    <ul type="none">
+                      <li>  <i class="fas fa-map-marker-alt"></i> Birgunj,Nepal</p></li>
+                      
+                      <li> <i class="fas fa-map-marker-alt"></i>   India</li>
+                      
+                      
+                    </ul>
+                  </table>
+                  
+                </div>
+</div>
+ </div>
+ <div style=" margin-left: 55px;  margin-top: 35px;text-align: center; opacity: .6;"> Copyright <span>&copy</span> JA IT SOLUTION 2021 <span style="border-left: 2px solid white;
+  height: 5px;margin-left: 5px; margin-right: 5px;  padding-top:  10px;
+  "></span> All Rights Reserved</div>
+  </footer>
+</body>
+</html>
